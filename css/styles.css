@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.textsb {
+  margin: 1rem;
+  padding: 1rem; }
+
+/* estilos de body */
+body {
+  /* variables */
+  background-color: #000000; }
+
+/* estilos de header */
+header {
+  color: whitesmoke; }
+  header nav ul div li {
+    list-style: none;
+    display: flex;
+    color: whitesmoke; }
+
+/* estilos del main */
+/* estilo de main de home */
+/* estilo de main */
+main {
+  margin: 1.5rem;
+  display: grid;
+  background-color: whitesmoke;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr; }
+
+main div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+main div img p {
+  font-size: 1.5rem;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+main .mapa {
+  display: flex;
+  margin: 1rem;
+  text-align: center;
+  color: whitesmoke; }
+
+/* estilo de main de contacto */
+.registro {
+  margin-left: 640px;
+  padding-top: 40px;
+  border: 1px white solid;
+  border-radius: 8px;
+  background-color: #003070;
+  width: 600px;
+  height: 460px;
+  color: white;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.registro form label {
+  margin-left: 14%;
+  width: 30%;
+  display: inline-block; }
+
+.registro form label, .registro form input {
+  margin-top: 20px; }
+
+.nombrein {
+  border: 1px #919191 solid;
+  border-radius: 3px;
+  height: 27px;
+  width: 168px; }
+
+.apellidoin {
+  border: 1px #919191 solid;
+  border-radius: 3px;
+  height: 27px;
+  width: 168px; }
+
+.emailin {
+  border: 1px #919191 solid;
+  border-radius: 3px;
+  height: 27px;
+  width: 168px; }
+
+.telefonoin {
+  border: 1px #919191 solid;
+  border-radius: 3px;
+  height: 27px;
+  width: 168px; }
+
+.consultain {
+  border: 1px #919191 solid;
+  border-radius: 3px;
+  height: 27px;
+  width: 168px; }
+
+.registrarin {
+  border: 1px white;
+  border-radius: 3px;
+  height: 40px;
+  width: 78px;
+  background-color: white;
+  margin-top: 20px; }
+
+/* estilos de main gtr */
+main .gtr {
+  height: 100%;
+  width: 100%;
+  background-color: black; }
+
+main .card-text {
+  display: flex;
+  text-align: left; }
+
+main .dodge2 {
+  height: 100%;
+  width: 100%;
+  background-color: black; }
+
+main .audir {
+  height: 100%;
+  width: 100%;
+  background-color: black; }
+
+/* footer */
+footer {
+  position: relative;
+  padding: 30px;
+  font-size: 14px;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  align-items: center; }
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  margin: 12px; }
+
+a:link {
+  text-decoration: none; }
+
+a:visited {
+  text-decoration: none; }
+
+/* estilos de footer */
+footer {
+  margin: 1rem;
+  text-align: center;
+  color: whitesmoke; }
+  footer .icon {
+    margin: 1rem;
+    height: 30px; }
+
+/* estilos de main de contacto */
+.maincontacto {
+  background-color: black; }
+  .maincontacto .div1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px white solid;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .maincontacto .div1 form label {
+    margin-left: 14%;
+    width: 30%;
+    display: inline-block; }
+  .maincontacto .div1 form label, .maincontacto .div1 form input {
+    margin-top: 20px; }
+  .maincontacto .nombrein {
+    border: 1px #919191 solid;
+    border-radius: 3px;
+    height: 27px;
+    width: 168px; }
+  .maincontacto .apellidosin {
+    border: 1px #919191 solid;
+    border-radius: 3px;
+    height: 27px;
+    width: 168px; }
+  .maincontacto .emailin {
+    border: 1px #919191 solid;
+    border-radius: 3px;
+    height: 27px;
+    width: 168px; }
+  .maincontacto .telefonoin {
+    border: 1px #919191 solid;
+    border-radius: 3px;
+    height: 27px;
+    width: 168px; }
+  .maincontacto .enviarin {
+    border: 1px black;
+    border-radius: 3px;
+    height: 40px;
+    color: white;
+    width: 78px;
+    background-color: black;
+    margin-top: 20px; }
+
+/* estilos de main de sobre nosotros */
+.textsb {
+  color: rgba(0, 0, 0, 0.952);
+  font-size: 15px;
+  text-shadow: 15px 15px 25px;
+  /* extend */ }
+  .textsb .photo {
+    height: 100%;
+    width: 100%; }
+
+/* mediaqueris */
+/* mq de tablet */
+@media screen and (min-width: 600px) {
+  main {
+    background-color: #414141; } }
+
+/* mq de pc */
+@media screen and (min-width: 1024px) {
+  main {
+    background-color: #737373; } }
